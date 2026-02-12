@@ -1,0 +1,45 @@
+.admin-content{
+    margin-top: 100px;
+}
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.admin-table th {
+  background: #f4f4f4;
+  font-weight: 600;
+}
+
+.table-img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.btn {
+  padding: 6px 10px;
+  margin: 0 4px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn.edit {
+  background: #007bff;
+  color: white;
+}
+
+.btn.delete {
+  background: #dc3545;
+  color: white;
+}

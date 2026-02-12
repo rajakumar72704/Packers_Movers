@@ -1,0 +1,50 @@
+.admin-page {
+  padding: 30px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-table th {
+  background: #f5f7fb;
+  text-align: left;
+}
+
+.badge-new {
+  background: #ff9800;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.badge-done {
+  background: #4caf50;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.btn-call,
+.btn-mail {
+  margin-right: 6px;
+  text-decoration: none;
+  color: #0a66c2;
+  font-weight: 600;
+}
+
+.btn-done {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}

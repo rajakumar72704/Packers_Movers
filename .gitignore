@@ -1,0 +1,12 @@
+# Ignore node modules
+API/node_modules/
+UI/node_modules/
+
+# Ignore environment files
+API/.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store

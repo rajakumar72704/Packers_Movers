@@ -1,0 +1,84 @@
+.register-page {
+  min-height: 100vh;
+  background: linear-gradient(
+      rgba(0,0,0,0.55),
+      rgba(0,0,0,0.55)
+    ),
+    url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c")
+      center/cover no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-card {
+  background: #ffffff;
+  padding: 35px 30px;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+}
+
+.register-card h2 {
+  margin-bottom: 6px;
+}
+
+.register-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.msg {
+  background: #e3f2fd;
+  color: #0d47a1;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.register-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.register-card input,
+.register-card textarea,
+.register-card select {
+  padding: 11px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.gender-group {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
+.register-card button {
+  padding: 12px;
+  background: #1e88e5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-card button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .register-card {
+    margin: 0 15px;
+  }
+}

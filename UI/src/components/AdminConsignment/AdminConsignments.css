@@ -1,0 +1,64 @@
+.admin-consignment-page {
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.admin-consignment-page h2 {
+  margin-bottom: 15px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.admin-table th {
+  background : #0a6cf1;
+  /* color: #fff; */
+}
+
+.admin-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.admin-table select {
+  padding: 5px;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+}
+
+.userid {
+  font-size: 12px;
+  color: #555;
+  word-break: break-all;
+}
+
+/* STATUS COLORS */
+.status {
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.status.Booked { background: #6c757d; }
+.status.AgentVisitScheduled { background: #17a2b8; }
+.status.AgentVisited { background: #6610f2; }
+.status.Approved { background: #0d6efd; }
+.status.Packed { background: #fd7e14; }
+.status.PickedUp { background: #20c997; }
+.status.InTransit { background: #0dcaf0; }
+.status.Delivered { background: #198754; }

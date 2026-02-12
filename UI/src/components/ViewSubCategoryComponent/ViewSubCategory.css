@@ -1,0 +1,59 @@
+/* Header */
+.subcategory-header {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.subcategory-header h2 {
+  font-size: 26px;
+  color: #1f3c88;
+  text-transform: capitalize;
+}
+
+.subcategory-header p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Horizontal strip */
+.subcategory-strip {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 45px;
+  padding: 20px 10px;
+  flex-wrap: wrap; /* mobile responsive */
+}
+
+/* Individual item */
+.subcategory-item {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Image */
+.subcategory-item img {
+  height: 120px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+/* Text */
+.subcategory-item span {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3b2fa3;
+  text-transform: capitalize;
+}
+
+/* Hover effect */
+.subcategory-item:hover {
+  transform: translateY(-6px);
+}
+
+.subcategory-item:hover span {
+  color: #ff7a00;
+}

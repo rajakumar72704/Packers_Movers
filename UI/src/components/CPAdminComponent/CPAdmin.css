@@ -1,0 +1,97 @@
+/* ===============================
+   CHANGE PASSWORD – SAFE SCOPE
+   =============================== */
+
+#tooplate_content {
+  background: #f4f6f9;
+  padding: 30px;
+  min-height: 80vh;
+  margin-top: 60px;
+}
+
+/* Card */
+#tooplate_content .content_box {
+  max-width: 520px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Title */
+#tooplate_content .content_box h2 {
+  text-align: center;
+  color: #1f3c88;
+  margin-bottom: 15px;
+}
+
+/* Message */
+#tooplate_content font {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Labels */
+#tooplate_content label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Inputs */
+#tooplate_content input[type="password"] {
+  width: 100%;
+  padding: 11px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Focus */
+#tooplate_content input[type="password"]:focus {
+  border-color: #1f3c88;
+  box-shadow: 0 0 0 2px rgba(31,60,136,0.15);
+}
+
+/* Error (added via JS class) */
+.input-error {
+  border-color: #dc3545 !important;
+  background: #fff5f5;
+}
+
+/* Button */
+#tooplate_content button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #1f3c88, #4e73df);
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#tooplate_content button:hover {
+  background: linear-gradient(135deg, #163172, #375fcf);
+}
+
+/* Lock icon */
+#tooplate_content .content_box::before {
+  content: "🔐";
+  font-size: 32px;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  #tooplate_content .content_box {
+    padding: 20px;
+  }
+}

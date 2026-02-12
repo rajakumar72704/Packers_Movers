@@ -1,0 +1,161 @@
+/* =========================
+   EP ADMIN PAGE SCOPE
+========================= */
+
+#tooplate_content {
+  padding: 30px;
+  background: #f4f6f9;
+  min-height: 80vh;
+}
+
+/* ONLY inside content_box */
+#tooplate_content .content_box {
+  max-width: 700px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+#tooplate_content .content_box h2 {
+  text-align: center;
+  color: #1f3c88;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+/* =========================
+   FORM (SCOPED)
+========================= */
+
+#tooplate_content .content_box form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+#tooplate_content .content_box input[type="text"],
+#tooplate_content .content_box input[type="email"],
+#tooplate_content .content_box textarea,
+#tooplate_content .content_box select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+}
+
+#tooplate_content .content_box input:focus,
+#tooplate_content .content_box textarea:focus,
+#tooplate_content .content_box select:focus {
+  border-color: #1f3c88;
+}
+
+#tooplate_content .content_box textarea {
+  resize: none;
+  height: 80px;
+}
+
+/* =========================
+   RADIO BUTTONS
+========================= */
+
+#tooplate_content .content_box input[type="radio"] {
+  margin-left: 10px;
+  margin-right: 4px;
+}
+
+/* =========================
+   UPDATE BUTTON (SAFE)
+========================= */
+
+#tooplate_content .content_box button {
+  width: 100%;
+  background: linear-gradient(135deg, #1f3c88, #4e73df);
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+#tooplate_content .content_box button:hover {
+  background: linear-gradient(135deg, #163172, #375fcf);
+}
+
+/* =========================
+   POPUP OVERLAY (SAFE)
+========================= */
+
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.popup-box {
+  background: #fff;
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  animation: popupFade 0.4s ease;
+}
+
+.popup-box h3 {
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.popup-box p {
+  color: #555;
+  font-size: 14px;
+}
+
+.close-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.close-btn:hover {
+  background: #218838;
+}
+
+@keyframes popupFade {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  #tooplate_content .content_box {
+    padding: 20px;
+  }
+}

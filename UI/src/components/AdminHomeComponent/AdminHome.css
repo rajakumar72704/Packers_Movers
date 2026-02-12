@@ -1,0 +1,98 @@
+.admin-home {
+  padding: 20px;
+  margin-top: 60px;
+}
+
+/* HERO */
+.admin-hero {
+  background: linear-gradient(
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.6)
+    ),
+    url("https://images.unsplash.com/photo-1556761175-5973dc0f32e7")
+      center/cover no-repeat;
+
+  color: #fff;
+  padding: 80px 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.admin-hero h1 {
+  font-size: 36px;
+}
+
+.admin-hero p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* STATS */
+.admin-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.stat-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.stat-card h3 {
+  font-size: 28px;
+  color: #1e88e5;
+}
+
+/* ACTIONS */
+.admin-actions h2 {
+  margin-bottom: 20px;
+}
+
+.action-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.action-card {
+  background: #f5f7fa;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.action-card:hover {
+  background: #1e88e5;
+  color: #fff;
+}
+
+/* ACTIVITY */
+.admin-activity h2 {
+  margin-bottom: 15px;
+}
+
+.admin-activity ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.admin-activity li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .admin-hero h1 {
+    font-size: 28px;
+  }
+}

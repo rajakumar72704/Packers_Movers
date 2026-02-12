@@ -1,0 +1,116 @@
+.charity-page {
+  min-height: 100vh;
+  background: #f4f6f8;
+  margin-top: 80px;
+}
+
+/* HERO */
+.charity-hero {
+  background: linear-gradient(
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.6)
+    ),
+    url("https://images.unsplash.com/photo-1556742031-c6961e8560b0")
+      center/cover no-repeat;
+
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.charity-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.charity-hero p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* MAIN */
+.charity-container {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 40px;
+}
+
+/* INFO */
+.charity-info h2 {
+  margin-bottom: 15px;
+}
+
+.charity-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.charity-info li {
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+/* PAYMENT CARD */
+.charity-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.charity-card h3 {
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+.row.total {
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* BUTTON */
+.pay-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  background: #635bff; /* Stripe color */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pay-btn:hover {
+  background: #5147ff;
+}
+
+.secure-text {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #555;
+  text-align: center;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .charity-container {
+    grid-template-columns: 1fr;
+  }
+
+  .charity-hero h1 {
+    font-size: 28px;
+  }
+}

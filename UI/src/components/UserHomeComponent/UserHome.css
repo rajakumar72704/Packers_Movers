@@ -1,0 +1,89 @@
+.user-home {
+  padding: 30px;
+  background: #f9fafb;
+  min-height: 100vh;
+  margin-top: 60px;
+}
+
+/* TOP */
+.user-top {
+  background: linear-gradient(
+      rgba(0,0,0,0.55),
+      rgba(0,0,0,0.55)
+    ),
+     url("https://images.unsplash.com/photo-1598928506311-c55ded91a20c")
+      center/cover no-repeat;
+
+  color: #fff;
+  padding: 35px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.user-top h1 {
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+.user-top p {
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/* SECTIONS */
+.user-section {
+  margin-bottom: 35px;
+}
+
+.user-section h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+/* ACTIONS */
+.user-action-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.user-card {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.user-card:hover {
+  background: #1e88e5;
+  color: #fff;
+}
+
+/* STATUS */
+.status-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  font-size: 14px;
+}
+
+/* HELP */
+.help-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  font-size: 14px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .user-top h1 {
+    font-size: 24px;
+  }
+}

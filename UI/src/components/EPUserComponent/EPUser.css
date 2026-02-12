@@ -1,0 +1,43 @@
+/* Overlay background */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Lightest Orange Popup */
+.popup-box {
+  background: #FFE8CC;      /* LIGHTEST ORANGE */
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  text-align: center;
+  color: #333;              /* Dark text for readability */
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
+  animation: pop 0.25s ease;
+  border: 2px solid #59ec59; /* Soft orange border */
+}
+
+@keyframes pop {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* OK Button */
+.close-btn {
+  margin-top: 15px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #23a323;     /* Medium orange button */
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
